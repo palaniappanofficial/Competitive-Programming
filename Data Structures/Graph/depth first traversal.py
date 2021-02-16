@@ -8,8 +8,8 @@ class Graph:
 	def __init__(self):
 		self.graph = defaultdict(list)
 
-	def addEdge(self, u, v):
-		self.graph[u].append(v)
+	def addEdge(self, key, value):
+		self.graph[key].append(value)
 
 	def DFSUtil(self, a, visited):
 
