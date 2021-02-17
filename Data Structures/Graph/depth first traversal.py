@@ -19,10 +19,10 @@ class Graph:
 		for neighbour in self.graph[a]:
 			if neighbour not in visited:
 				self.DFSUtil(neighbour, visited)
-	def DFS(self, v):
+	def DFS(self, vertex):
 
 		visited = set()
-		self.DFSUtil(v, visited)
+		self.DFSUtil(vertex, visited)
 
 obj = Graph()
 obj.addEdge(0, 1)
