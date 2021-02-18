@@ -1,15 +1,16 @@
 
 def oddnumbers(n,value,arr):
     if value>n:
-        print(arr)
-        return
+        return arr
     if value%2==1:
         arr.append(value)
     value=value+1
-    oddnumbers(n,value,arr)
+    a=oddnumbers(n,value,arr)
+    return a
 
 
 
 value=0
 arr=[]
-oddnumbers(100,value,arr)
+array=oddnumbers(100,value,arr)
+print(array)
