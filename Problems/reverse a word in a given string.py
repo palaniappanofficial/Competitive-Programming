@@ -7,6 +7,7 @@ def splitword(stringword):
         b=b+a[i]
         b=b+"."
         i=i-1
-    print(b)
+    return b
 s="hi.palani.appan.how.are.you"
-splitword(s)
+a=splitword(s)
+print(a)
