@@ -27,6 +27,7 @@ class Linklist:
             arr.append(temp.data)
             temp=temp.next
         print(arr)
+        return arr
 obj=Linklist()
 obj.insertlast(1)
 obj.insertlast(2)
