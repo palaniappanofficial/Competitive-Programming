@@ -19,6 +19,14 @@ class Linklist:
         while(temp is not None):
             print(temp.data,end=" ")
             temp=temp.next
+        print("\n")
+    def linkedlisttoarray(self):
+        arr=[]
+        temp=self.head
+        while(temp is not None):
+            arr.append(temp.data)
+            temp=temp.next
+        print(arr)
 obj=Linklist()
 obj.insertlast(1)
 obj.insertlast(2)
@@ -26,7 +34,7 @@ obj.insertlast(8)
 obj.insertlast(4)
 obj.insertlast(5)
 obj.printlist()
-
+obj.linkedlisttoarray()
 
 
 
