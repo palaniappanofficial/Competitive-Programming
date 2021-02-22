@@ -10,5 +10,5 @@ class Solution:
 a=[8,5,9]
 b=[6,7,2]
 obj=Solution()
-value=obj.solve(a,b)
-print(value)
+values=obj.solve(a,b)
+print(values)
