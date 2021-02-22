@@ -8,4 +8,4 @@ class Problem:
         print(a)
         return a
 obj=Problem()
-obj.problems("howareyou")
+obj.problems("hipalaniappan")
