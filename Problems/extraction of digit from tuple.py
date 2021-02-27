@@ -8,4 +8,5 @@ for i in values:
     for j in str(i):
         print(i,end=" ")
         sets.add(j)
+print("\n")
 print(sets)
