@@ -8,5 +8,5 @@ print(c)
 # Method 2
 
 from operator import xor
-d=tuple(map(xor,a,b))
+d=list(map(xor,a,b))
 print(d)
