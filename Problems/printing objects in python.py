@@ -1,6 +1,6 @@
 class Main:
-    def __init__(self,aval,bval):
-        self.aval=aval
+    def __init__(self,val_a,bval):
+        self.aval=val_a
         self.bval=bval
     def __repr__(self):
         return "A Value : %s B Value : %s" %(self.aval,self.bval)
